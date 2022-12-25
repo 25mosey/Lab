@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Colors</string>
+    <string name="input_color">Input Color</string>
+    <string name="change">Change</string>
+    <string name="clear">Clear</string>
+    <string name="checkbox_up">UP</string>
+    <string name="checkbox_down">DOWN</string>
+    <string name="radio_red">red</string>
+    <string name="radio_green">green</string>
+    <string name="radio_blue">blue</string>
+    <string name="OkButton">OK</string>
+</resources>

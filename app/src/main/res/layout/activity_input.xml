@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/window"
+    android:background="#C3D613"
+    android:gravity="center"
+    tools:context=".InputActivity">
+    <CheckBox
+        android:id="@+id/checkbox_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_up"
+        android:layout_marginRight="150dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_down"
+        android:layout_marginRight="138dp"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/red"
+        android:textSize="@dimen/font"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:hint="@string/radio_red"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/green"
+        android:textSize="@dimen/font"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:hint="@string/radio_green"
+        />
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/blue"
+        android:textSize="@dimen/font"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:hint="@string/radio_blue"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/OK"
+        android:textSize="@dimen/font"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:text="@string/OkButton"/>
+</LinearLayout>
